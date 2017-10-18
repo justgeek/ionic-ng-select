@@ -1,9 +1,9 @@
 {
-  "name": "ng-select",
+  "name": "ionic-ng-select",
   "version": "1.0.0-beta.6",
-  "description": "Select component for angular.",
+  "description": "Select component for ionic.",
   "main": "index.js",
-  "repository": "git@github.com:basvandenberg/ng-select.git",
+  "repository": "git@github.com:justgeek/ionic-ng-select.git",
   "keywords": [
     "angular",
     "select",
@@ -11,12 +11,10 @@
     "selectize",
     "chosen"
   ],
-  "author": "Bastiaan van den Berg <b.a.vandenberg@gmail.com>",
+  "author": "Mohammed Taher <mt@prollygeek.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/basvandenberg/ng-select/issues"
-  },
-  "homepage": "https://basvandenberg.github.io/ng-select",
+
+  "homepage": "https://github.com/justgeek/ionic-ng-select",
   "dependencies": {},
   "devDependencies": {
     "@angular/animations": "^4.2.5",
