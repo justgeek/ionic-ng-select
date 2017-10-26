@@ -48,7 +48,11 @@ var SelectDropdownComponent = (function () {
            
                 let filter = document.querySelector("ng-select");
                 let scroll = filter.offsetTop;//next siblin should be of list class "options"
-                setTimeout(() => { filter.closest(".scroll-content").scrollTop = scroll }, 400);
+                setTimeout(() => { 
+                    var closestContent=filter.closest(".scroll-content");
+                    if(closestContent)
+                    closestContent.scrollTop = scroll;
+                 }, 400);
 
 
         },400)
